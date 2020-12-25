@@ -1,0 +1,337 @@
+* {
+  font-family: "Monst";
+  box-sizing: border-box;
+  color: #777;
+}
+
+html,
+body {
+  padding: 0%;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Monst";
+  src: url(Font/montserrat/Montserrat-Medium.ttf) format(ttf);
+}
+
+@font-face {
+  font-family: "Monst-bold";
+  src: url(Font/montserrat/Montserrat-ExtraBold.ttf) format(ttf);
+}
+
+.Nav li {
+  display: inline;
+}
+
+.Nav ul {
+  padding: 0%;
+  margin: 0em;
+}
+.Nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  display: inline-block;
+}
+
+.Nav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.company-name {
+  font-family: "Monst-bold";
+  font-size: 8em;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+.main-Nav {
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.main-Nav li {
+  padding: 5% 5%;
+}
+
+.buttonClass {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
+.buttonClassHeader {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #8fbda0;
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.buttonClassHeader:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.row {
+  text-align: center;
+  /*the same margin which is every button have, it is for small screen, and if you have many buttons.*/
+  margin-left: -10%;
+  line-height: 60px;
+  margin-right: -10%;
+}
+
+.buttonClassPlay {
+  display: inline-block;
+  color: #8fbda0;
+  font-size: 2em;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0%;
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.main-header {
+  background-image: url("Images/HeaderBackground.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.section-header {
+  font-family: "Monst-bold";
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.games-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.games-row:last-child {
+  border-bottom: 0px;
+}
+
+.games-item {
+  display: inline-block;
+  padding-right: 0.5em;
+  width: 26%;
+}
+
+.games-item-date {
+  color: #333;
+  font-family: "Monst-bold";
+}
+.games-item-name {
+}
+
+.games-item-platform {
+}
+
+.games-item-button {
+  max-width: 19%;
+  color: white;
+  background-color: #0c4b43;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.games-item-button:hover {
+  background-color: #16897a;
+}
+
+.footer-companyname {
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  margin-left: 3%;
+}
+.main-footer {
+  background-color: black;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  text-align: end;
+}
+.social-media {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 3%;
+}
+.social-media img {
+  height: 20px;
+  width: 20px;
+}
+
+.social-media li {
+  padding: 0, 0.5em;
+}
+.shop-item {
+  margin: 30px;
+}
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item img {
+  height: 250px;
+  width: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: larger;
+  color: #333;
+}
+
+.shop-item-button {
+  max-width: 50%;
+  align-self: flex-end;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.1em;
+  margin-right: 2em;
+  margin-top: 10px;
+}
+
+.cart-item-name {
+  color: #333;
+  margin-left: 1.6em;
+  font-size: 1.2em;
+}
+
+.cart-item img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.cart-remove-button {
+  background-color: red;
+  max-width: 60%;
+  width: 60%;
+}
+
+.cart-remove-button:hover {
+  background-color: lightcoral;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #0c4b43;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+  padding: 0;
+  font-size: 1.2em;
+  margin-right: 50%;
+}
+
+.cart-title {
+  align-items: center;
+  text-align: center;
+}
+
+.cart-row {
+  display: flex;
+}
+.cart-item {
+  width: 45%;
+  max-width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-finished {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-totalDone {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-sum {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.purchase-button {
+  display: block;
+  align-items: center;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}

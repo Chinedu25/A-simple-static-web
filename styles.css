@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: "Momo";
+  color: #777;
+}
+
+@font-face {
+  font-family: "Momo";
+  src: url(Font/montserrat/Montserrat-Medium.ttf) format(tff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Momo-Styled";
+  src: url(Font/montserrat/Montserrat-ExtraBold.ttf) format(tff);
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+
+  color: white;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mainNav {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.mainNav li {
+  padding: 5% 5%;
+}
+
+.company-name {
+  font-family: "Momo-Styled";
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size: 8em;
+}
+.contentSection {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.sectionHeader {
+  font-family: "Momo-Styled";
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.aroundImage {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.mainfooter {
+  background-color: black;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.socialMedia {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 3%;
+}
+
+.socialMedia img {
+  height: 20px;
+  width: 20px;
+}
+
+.mainFooterContainer {
+  display: flex;
+  align-items: center;
+}
+
+.mainFooterContainer ul {
+  text-align: end;
+}
+
+.footerCompanyName {
+  font-family: "Momo-Styled";
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  margin-left: 3%;
+}
+
+.socialMedia li {
+  padding: 0, 0.5em;
+}
+.MainHeader {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("Images/HeaderBackground.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
